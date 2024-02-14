@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <title>First JSP</title>
+    <style>
+      a {
+        color: rgb(255, 0, 0);
+        background-color: black;
+        height: 100px;
+        width: 150px;
+        border-radius: 5px;
+        font-weight: 600;
+        text-decoration: none;
+        padding: 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h3>
+      hi ${studentDetails.studentName}, ${studentDetails.rollNo} got updated
+    </h3>
+    <a target="_self" type="button" href="/home.jsp">Click me</a>
+    <br />
+  </body>
+</html>
